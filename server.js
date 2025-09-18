@@ -10,6 +10,7 @@ app.use(bodyParser.json());
 
 mongoose.connect('mongodb+srv://2312101:Ganesh@2005@cluster0.yebtkpa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
+    
 useUnifiedTopology: true
 })
 .then(() => console.log("MongoDB Atlas Connected"))
